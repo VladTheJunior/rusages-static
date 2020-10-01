@@ -1,0 +1,305 @@
+.emojie{
+  display: inline-block!important;
+    background-repeat: no-repeat !important;
+    background-size: 23px auto!important;
+    background-position: center!important;
+    width: 23px !important;
+    height: 23px !important;
+    vertical-align: top !important;
+}
+
+.emojie-button{
+  background-repeat: no-repeat !important;
+  background-size: 32px auto!important;
+  background-position: center!important;
+  vertical-align: middle !important;
+}
+
+.ck-emoji__actions{
+    
+    display: grid !important;
+    grid-template-columns: 50px 50px 50px 50px 50px!important;
+    padding: 5px!important;
+    width: 280px!important;
+    height: 240px!important;
+    overflow: auto!important;
+}
+.emojie-resource_export {
+  background-image: url("/static/images/emoji/resource_export.png") !important;
+
+}
+.emojie-resource_dances {
+  background-image: url("/static/images/emoji/resource_dances.png") !important;
+
+}
+.emojie-resource_food {
+  background-image: url("/static/images/emoji/resource_food.png") !important;
+
+}
+.emojie-resource_gold {
+  background-image: url("/static/images/emoji/resource_gold.png") !important;
+
+}
+.emojie-resource_pop {
+  background-image: url("/static/images/emoji/resource_pop.png") !important;
+
+}
+.emojie-resource_trading {
+  background-image: url("/static/images/emoji/resource_trading.png") !important;
+
+}
+.emojie-resource_villagers {
+  background-image: url("/static/images/emoji/resource_villagers.png") !important;
+
+}
+.emojie-resource_wood {
+  background-image: url("/static/images/emoji/resource_wood.png") !important;
+
+}
+.emojie-score_age_1 {
+  background-image: url("/static/images/emoji/score_age_1.png") !important;
+
+}
+.emojie-score_age_2 {
+  background-image: url("/static/images/emoji/score_age_2.png") !important;
+
+}
+.emojie-score_age_3 {
+  background-image: url("/static/images/emoji/score_age_3.png") !important;
+
+}
+.emojie-score_age_4 {
+  background-image: url("/static/images/emoji/score_age_4.png") !important;
+
+}
+.emojie-score_age_5 {
+  background-image: url("/static/images/emoji/score_age_5.png") !important;
+
+}
+.emojie-score_revolution {
+  background-image: url("/static/images/emoji/score_revolution.png") !important;
+
+}
+
+.emojie-banner_artillery {
+  background-image: url("/static/images/emoji/banner_artillery.png") !important;
+
+}
+.emojie-banner_building {
+  background-image: url("/static/images/emoji/banner_building.png") !important;
+
+}
+.emojie-banner_cavalry {
+  background-image: url("/static/images/emoji/banner_cavalry.png") !important;
+
+}
+.emojie-banner_explorer {
+  background-image: url("/static/images/emoji/banner_explorer.png") !important;
+
+}
+.emojie-banner_infantry {
+  background-image: url("/static/images/emoji/banner_infantry.png") !important;
+
+}
+.emojie-banner_naval {
+  background-image: url("/static/images/emoji/banner_naval.png") !important;
+
+}
+.emojie-banner_nongather {
+  background-image: url("/static/images/emoji/banner_nongather.png") !important;
+
+}
+.emojie-banner_villager {
+  background-image: url("/static/images/emoji/banner_villager.png") !important;
+
+}
+.emojie-Flag_Argentinian {
+  background-image: url("/static/images/emoji/Flag_Argentinian.png") !important;
+
+}
+.emojie-Flag_Aztec {
+  background-image: url("/static/images/emoji/Flag_Aztec.png") !important;
+
+}
+.emojie-Flag_Barbary {
+  background-image: url("/static/images/emoji/Flag_Barbary.png") !important;
+
+}
+.emojie-Flag_Black {
+  background-image: url("/static/images/emoji/Flag_Black.png") !important;
+
+}
+.emojie-Flag_Brazilian {
+  background-image: url("/static/images/emoji/Flag_Brazilian.png") !important;
+
+}
+.emojie-Flag_British {
+  background-image: url("/static/images/emoji/Flag_British.png") !important;
+
+}
+.emojie-Flag_Canadians {
+  background-image: url("/static/images/emoji/Flag_Canadians.png") !important;
+
+}
+.emojie-Flag_Chilean {
+  background-image: url("/static/images/emoji/Flag_Chilean.png") !important;
+
+}
+.emojie-Flag_Chinese {
+  background-image: url("/static/images/emoji/Flag_Chinese.png") !important;
+
+}
+.emojie-Flag_Circle {
+  background-image: url("/static/images/emoji/Flag_Circle.png") !important;
+
+}
+.emojie-Flag_Colombian {
+  background-image: url("/static/images/emoji/Flag_Colombian.png") !important;
+
+}
+.emojie-Flag_Dutch {
+  background-image: url("/static/images/emoji/Flag_Dutch.png") !important;
+
+}
+.emojie-Flag_EastIndiaTradingCompany {
+  background-image: url("/static/images/emoji/Flag_EastIndiaTradingCompany.png") !important;
+
+}
+.emojie-Flag_Egyptians {
+  background-image: url("/static/images/emoji/Flag_Egyptians.png") !important;
+
+}
+.emojie-Flag_Ethiopian {
+  background-image: url("/static/images/emoji/Flag_Ethiopian.png") !important;
+
+}
+.emojie-Flag_Finnish {
+  background-image: url("/static/images/emoji/Flag_Finnish.png") !important;
+
+}
+.emojie-Flag_French {
+  background-image: url("/static/images/emoji/Flag_French.png") !important;
+
+}
+.emojie-Flag_German {
+  background-image: url("/static/images/emoji/Flag_German.png") !important;
+
+}
+.emojie-Flag_Haitian {
+  background-image: url("/static/images/emoji/Flag_Haitian.png") !important;
+
+}
+.emojie-Flag_Hungarian {
+  background-image: url("/static/images/emoji/Flag_Hungarian.png") !important;
+
+}
+.emojie-Flag_Incan {
+  background-image: url("/static/images/emoji/Flag_Incan.png") !important;
+
+}
+.emojie-Flag_Indian {
+  background-image: url("/static/images/emoji/Flag_Indian.png") !important;
+
+}
+.emojie-Flag_Indonesian {
+  background-image: url("/static/images/emoji/Flag_Indonesian.png") !important;
+
+}
+.emojie-Flag_Iroquois {
+  background-image: url("/static/images/emoji/Flag_Iroquois.png") !important;
+
+}
+.emojie-Flag_Japanese {
+  background-image: url("/static/images/emoji/Flag_Japanese.png") !important;
+
+}
+.emojie-Flag_Mexican {
+  background-image: url("/static/images/emoji/Flag_Mexican.png") !important;
+
+}
+.emojie-Flag_Ottoman {
+  background-image: url("/static/images/emoji/Flag_Ottoman.png") !important;
+
+}
+.emojie-Flag_Peruvian {
+  background-image: url("/static/images/emoji/Flag_Peruvian.png") !important;
+
+}
+.emojie-Flag_Pirate {
+  background-image: url("/static/images/emoji/Flag_Pirate.png") !important;
+
+}
+.emojie-Flag_Portuguese {
+  background-image: url("/static/images/emoji/Flag_Portuguese.png") !important;
+
+}
+.emojie-Flag_Random {
+  background-image: url("/static/images/emoji/Flag_Random.png") !important;
+
+}
+.emojie-Flag_Romanians {
+  background-image: url("/static/images/emoji/Flag_Romanians.png") !important;
+
+}
+.emojie-Flag_Russian {
+  background-image: url("/static/images/emoji/Flag_Russian.png") !important;
+
+}
+.emojie-Flag_Sioux {
+  background-image: url("/static/images/emoji/Flag_Sioux.png") !important;
+
+}
+
+.emojie-Flag_Somalis {
+  background-image: url("/static/images/emoji/Flag_Somalis.png") !important;
+
+}
+.emojie-Flag_South_African {
+  background-image: url("/static/images/emoji/Flag_South_African.png") !important;
+
+}
+.emojie-Flag_Spanish {
+  background-image: url("/static/images/emoji/Flag_Spanish.png") !important;
+
+}
+.emojie-Flag_Swedish {
+  background-image: url("/static/images/emoji/Flag_Swedish.png") !important;
+
+}
+
+.emojie-Flag_Tatars {
+  background-image: url("/static/images/emoji/Flag_Tatars.png") !important;
+
+}
+.emojie-Flag_USA {
+  background-image: url("/static/images/emoji/Flag_USA.png") !important;
+
+}
+.emojie-hp_cp_check {
+  background-image: url("/static/images/emoji/hp_cp_check.png") !important;
+
+}
+.emojie-icon_compass_flare {
+  background-image: url("/static/images/emoji/icon_compass_flare.png") !important;
+
+}
+.emojie-icon_compass_mapdetails {
+  background-image: url("/static/images/emoji/icon_compass_mapdetails.png") !important;
+
+}
+.emojie-icon_compass_mapdetails_economic_only {
+  background-image: url("/static/images/emoji/icon_compass_mapdetails_economic_only.png") !important;
+
+}
+.emojie-icon_diplomacy {
+  background-image: url("/static/images/emoji/icon_diplomacy.png") !important;
+
+}
+.emojie-icon_kick {
+  background-image: url("/static/images/emoji/icon_kick.png") !important;
+
+}
+.emojie-icon_summary {
+  background-image: url("/static/images/emoji/icon_summary.png") !important;
+
+}

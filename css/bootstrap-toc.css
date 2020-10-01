@@ -1,0 +1,33 @@
+div[data-toggle="toc"] .article-toc-body > li > a {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+div[data-toggle="toc"] a + ol {
+  display: none;
+  padding-bottom: 10px;
+}
+div[data-toggle="toc"] .article-toc-body .article-toc-body > li > a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: 400;
+}
+div[data-toggle="toc"] .article-toc-body .article-toc-body > li > a:focus,
+div[data-toggle="toc"] .article-toc-body .article-toc-body > li > a:hover {
+  padding-left: 29px;
+}
+div[data-toggle="toc"] .article-toc-body .article-toc-body > li > .active,
+div[data-toggle="toc"] .article-toc-body .article-toc-body > li > .active:focus,
+div[data-toggle="toc"]
+  .article-toc-body
+  .article-toc-body
+  > li
+  > .active:hover {
+  padding-left: 28px;
+  font-weight: 500;
+}
+div[data-toggle="toc"] a.active + ol {
+  display: block;
+}

@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Trajan;
-  src: url("/static/fonts/Trajan.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/VladTheJunior/rusages@0.0.1/fonts/Trajan.ttf");
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 body {
-  background: url("/static/images/wheel/bg.png");
+  background: url("http://www.rusages.ru/static/images/wheel/bg.png");
   background-size: cover;
   background-attachment: fixed;
   background-color: #000;
@@ -71,7 +71,7 @@ body {
 }
 
 .frame-box {
-  background: #734716 url("/static/images/frame-box-texture.jpg") repeat top;
+  background: #734716 url("http://www.rusages.ru/static/images/frame-box-texture.jpg") repeat top;
   border: 2px solid rgba(0, 0, 0, 0.85);
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
   margin-bottom: 1.5rem;
@@ -82,7 +82,7 @@ body {
 }
 
 .frame-box-headerbox {
-  background: #2d2a23 url("/static/images/texture-dark.jpg") repeat top;
+  background: #2d2a23 url("http://www.rusages.ru/static/images/texture-dark.jpg") repeat top;
   color: #fefefe;
   border: 1px solid rgba(192, 136, 64, 0.7);
   overflow: hidden;
@@ -101,7 +101,7 @@ body {
   overflow: hidden;
   padding: 0rem;
   position: relative;
-  background: #f8f5e8 url("/static/images/texture-light.jpg") repeat top;
+  background: #f8f5e8 url("http://www.rusages.ru/static/images/texture-light.jpg") repeat top;
 }
 
 .comment-box-button:hover,
@@ -155,7 +155,7 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: transparent url("/static/images/button-red-desk.png") 0 0
+  background: transparent url("http://www.rusages.ru/static/images/button-red-desk.png") 0 0
     no-repeat;
   background-size: auto 400%;
   z-index: -1;

@@ -93,6 +93,11 @@
   display: flex;
 }
 
+.input-with-icon textarea{
+  height: 183px;
+  max-width: 31em;
+}
+
 label {
   cursor: pointer;
   display: inline-block;

@@ -109,6 +109,7 @@
 .discord-invite-body-content-button:active,
 .discord-invite-body-content-button:focus {
   background-color: #3ca374;
+  color: #fff;
   text-decoration: none;
 }
 .discord-invite-body-content-button:focus {

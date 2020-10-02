@@ -1,3 +1,9 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 .footer__hr {
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 15%;
@@ -5,12 +11,12 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.footer__site-description{
+.footer__site-description {
   margin: 1.5rem 0;
   text-align: center;
 }
 
-.footer__copyright{
+.footer__copyright {
   text-align: center;
   text-transform: uppercase;
   padding: 1.5rem 0;
@@ -19,8 +25,6 @@
 .text-light {
   color: var(--text-light);
 }
-
-
 
 .comment-body .media {
   display: block;
@@ -517,8 +521,8 @@ select:focus,
 .article-body ul li,
 .article-li {
   list-style: none;
-  background: url("https://vladthejunior.sirv.com/rusages/images/article/marker.png") left
-    0 top 0.6em no-repeat;
+  background: url("https://vladthejunior.sirv.com/rusages/images/article/marker.png")
+    left 0 top 0.6em no-repeat;
   background-size: 0.4em 0.4em;
   padding-left: 1.2em;
   margin-bottom: 0.5em;
@@ -543,6 +547,8 @@ h6,
 .h6 {
   margin: 0;
   text-align: left;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .alm-button:focus {
@@ -727,7 +733,8 @@ footer {
   width: 100%;
   overflow: hidden;
   background: transparent
-    url("https://vladthejunior.sirv.com/rusages/images/button-red-desk.png") 0 0 no-repeat;
+    url("https://vladthejunior.sirv.com/rusages/images/button-red-desk.png") 0 0
+    no-repeat;
   background-size: auto 400%;
   z-index: -1;
 }
@@ -822,7 +829,8 @@ footer {
   margin-bottom: 2rem;
   padding: 8px;
   background: #734716
-    url("https://vladthejunior.sirv.com/rusages/images/frame-box-texture.jpg") repeat top;
+    url("https://vladthejunior.sirv.com/rusages/images/frame-box-texture.jpg")
+    repeat top;
   border: 2px solid rgba(0, 0, 0, 0.85);
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
 
@@ -832,7 +840,8 @@ footer {
 
 .article-preview-bodybox {
   background: #f8f5e8
-    url("https://vladthejunior.sirv.com/rusages/images/texture-light.jpg") repeat top;
+    url("https://vladthejunior.sirv.com/rusages/images/texture-light.jpg")
+    repeat top;
   padding: 0;
   border: 1px solid rgba(192, 136, 64, 0.7);
   overflow: hidden;
@@ -1086,7 +1095,8 @@ footer {
 
 .frame-box {
   background: #734716
-    url("https://vladthejunior.sirv.com/rusages/images/frame-box-texture.jpg") repeat top;
+    url("https://vladthejunior.sirv.com/rusages/images/frame-box-texture.jpg")
+    repeat top;
   border: 2px solid rgba(0, 0, 0, 0.85);
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
   margin-bottom: 1.5rem;
@@ -1097,7 +1107,8 @@ footer {
 
 .frame-box-headerbox {
   background: #2d2a23
-    url("https://vladthejunior.sirv.com/rusages/images/texture-dark.jpg") repeat top;
+    url("https://vladthejunior.sirv.com/rusages/images/texture-dark.jpg") repeat
+    top;
   color: #fefefe;
   border: 1px solid rgba(192, 136, 64, 0.7);
   overflow: hidden;
@@ -1123,7 +1134,8 @@ footer {
   padding: 0rem;
   position: relative;
   background: #f8f5e8
-    url("https://vladthejunior.sirv.com/rusages/images/texture-light.jpg") repeat top;
+    url("https://vladthejunior.sirv.com/rusages/images/texture-light.jpg")
+    repeat top;
 }
 
 .frame-box-bodybox ul li {

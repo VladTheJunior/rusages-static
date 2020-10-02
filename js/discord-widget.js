@@ -1,4 +1,4 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function() { 
     var requestURL = 'https://discordapp.com/api/guilds/739033277301522433/widget.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
@@ -6,6 +6,6 @@ $(document).ready(function () {
     request.send();
     request.onload = function () {
         var discord = request.response;
-        $('.discord-invite-header-count').html('<div class="discord-invite-header-online-status"></div><strong>' + discord['presence_count'] + '</strong> в сети');
+        document.querySelector('.discord-invite-header-count').innerHTML = '<div class="discord-invite-header-online-status"></div><strong>' + discord['presence_count'] + '</strong> в сети';
     }
 });

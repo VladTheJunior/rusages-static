@@ -1,0 +1,31 @@
+.countdown {
+  justify-content: center;
+  padding: 1rem 0;
+  font-family: var(--font-family-sans-serif);
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+}
+
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background: #ffffff0a;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #ffffff12;
+  display: inline-block;
+}
+
+.countdown-text__days,
+.countdown-text__hours,
+.countdown-text__mins,
+.countdown-text__secs {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}

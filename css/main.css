@@ -1,88 +1,40 @@
-
-@import url("https://cdn.jsdelivr.net/gh/VladTheJunior/rusages@0.0.1/css/variables.min.css");
-@import url("https://cdn.jsdelivr.net/gh/VladTheJunior/rusages@0.0.1/avatars.min.css");
-@import url("https://cdn.jsdelivr.net/gh/VladTheJunior/rusages@0.0.1/emoji.min.css");
-
-
-.page503-container{
-  color: rgba(255, 255, 255, 0.7);
-    background-color: rgba(0, 0, 0, 0.7);
+.footer__hr {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 15%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.page503-content{
-  flex-direction: column;
-  padding: 1rem;
+.footer__site-description{
+  margin: 1.5rem 0;
+  text-align: center;
 }
 
-.page503-content img{
-  height: 41vh;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.page503-content h1 {
-  padding: 1rem 0;
+.footer__copyright{
   text-align: center;
   text-transform: uppercase;
+  padding: 1.5rem 0;
+}
+
+.text-light {
+  color: var(--text-light);
 }
 
 
-.page503-content h3 {
-  text-align: center;
-  text-transform: uppercase;
-  
-}
- 
-.countdown {
-  padding: 1rem 0;
-  font-family: sans-serif;
-  display: inline-block;
-  font-weight: 100;
-  text-align: center;
-  font-size: 30px;
-}
- 
-.countdown-number {
-  padding: 10px;
-  border-radius: 3px;
-  background:#ffffff0a;
-  display: inline-block;
-}
- 
-.countdown-time {
-  padding: 15px;
-  border-radius: 3px;
-  background: #ffffff12;
-  display: inline-block;
-}
- 
-.countdown-text__days,
-.countdown-text__hours,
-.countdown-text__mins,
-.countdown-text__secs
-{
-  display: block;
-  padding-top: 5px;
-  font-size: 16px;
-}
 
 .comment-body .media {
- display: block;
+  display: block;
 }
 
-.article-editor .ck-editor__editable_inline{
+.article-editor .ck-editor__editable_inline {
   min-height: 400px;
 }
 
-
 .comment-box-content-editable.ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused {
   outline: none;
-   border: none !important; 
- box-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
 }
-
-
 
 .ck.ck-balloon-panel:not(.ck-toolbar-container) {
   z-index: 10055 !important;
@@ -160,22 +112,22 @@ input[type="checkbox"] {
 
 .aoe-checkbox label:before {
   background-size: contain;
-  background-image: url("http://www.rusages.ru/static/images/checkbox/checkbox_off.png");
+  background-image: url("https://vladthejunior.sirv.com/rusages/images/checkbox/checkbox_off.png");
   background-position: left center;
   background-repeat: no-repeat;
   margin-top: -5px;
 }
 
 .aoe-checkbox label:hover:before {
-  background-image: url("http://www.rusages.ru/static/images/checkbox/checkbox_hover.png");
+  background-image: url("https://vladthejunior.sirv.com/rusages/images/checkbox/checkbox_hover.png");
 }
 
 input[type="checkbox"]:checked + label:before {
-  background-image: url("http://www.rusages.ru/static/images/checkbox/checkbox_on.png");
+  background-image: url("https://vladthejunior.sirv.com/rusages/images/checkbox/checkbox_on.png");
 }
 
 input[type="checkbox"]:checked + label:hover:before {
-  background-image: url("http://www.rusages.ru/static/images/checkbox/checkbox_on_hover.png");
+  background-image: url("https://vladthejunior.sirv.com/rusages/images/checkbox/checkbox_on_hover.png");
 }
 
 input[type="email"],
@@ -489,7 +441,7 @@ select:focus,
   right: 0;
   top: 0;
   height: 100%;
-  background-image: url("http://www.rusages.ru/static/images/divider.png");
+  background-image: url("https://vladthejunior.sirv.com/rusages/images/divider.png");
   background-size: auto 200%;
 }
 
@@ -565,8 +517,8 @@ select:focus,
 .article-body ul li,
 .article-li {
   list-style: none;
-  background: url("http://www.rusages.ru/static/images/article/marker.png") left 0 top 0.6em
-    no-repeat;
+  background: url("https://vladthejunior.sirv.com/rusages/images/article/marker.png") left
+    0 top 0.6em no-repeat;
   background-size: 0.4em 0.4em;
   padding-left: 1.2em;
   margin-bottom: 0.5em;
@@ -623,7 +575,7 @@ h6,
 
 @font-face {
   font-family: Trajan;
-  src: url("https://cdn.jsdelivr.net/gh/VladTheJunior/rusages@0.0.1/fonts/Trajan.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/VladTheJunior/rusages@0.0.3/fonts/Trajan.ttf");
 }
 
 html,
@@ -639,7 +591,7 @@ body {
 
 body {
   overflow: auto;
-  background: url("http://www.rusages.ru/static/images/menubg.png");
+  background: url("https://vladthejunior.sirv.com/rusages/images/menubg.png");
 }
 footer {
   background-color: rgba(0, 0, 0, 0.7);
@@ -666,7 +618,8 @@ footer {
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
   margin-bottom: 1.5rem;
   padding: 0.5rem;
-  background: url("http://www.rusages.ru/static/images/framebox-bigbg.jpg") rgb(255, 255, 255);
+  background: url("https://vladthejunior.sirv.com/rusages/images/framebox-bigbg.jpg")
+    rgb(255, 255, 255);
 }
 
 .comment-box-row {
@@ -773,8 +726,8 @@ footer {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: transparent url("http://www.rusages.ru/static/images/button-red-desk.png") 0 0
-    no-repeat;
+  background: transparent
+    url("https://vladthejunior.sirv.com/rusages/images/button-red-desk.png") 0 0 no-repeat;
   background-size: auto 400%;
   z-index: -1;
 }
@@ -868,7 +821,8 @@ footer {
   transition: border-color 0.25s ease;
   margin-bottom: 2rem;
   padding: 8px;
-  background: #734716 url("http://www.rusages.ru/static/images/frame-box-texture.jpg") repeat top;
+  background: #734716
+    url("https://vladthejunior.sirv.com/rusages/images/frame-box-texture.jpg") repeat top;
   border: 2px solid rgba(0, 0, 0, 0.85);
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
 
@@ -877,7 +831,8 @@ footer {
 }
 
 .article-preview-bodybox {
-  background: #f8f5e8 url("http://www.rusages.ru/static/images/texture-light.jpg") repeat top;
+  background: #f8f5e8
+    url("https://vladthejunior.sirv.com/rusages/images/texture-light.jpg") repeat top;
   padding: 0;
   border: 1px solid rgba(192, 136, 64, 0.7);
   overflow: hidden;
@@ -1130,7 +1085,8 @@ footer {
 }
 
 .frame-box {
-  background: #734716 url("http://www.rusages.ru/static/images/frame-box-texture.jpg") repeat top;
+  background: #734716
+    url("https://vladthejunior.sirv.com/rusages/images/frame-box-texture.jpg") repeat top;
   border: 2px solid rgba(0, 0, 0, 0.85);
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
   margin-bottom: 1.5rem;
@@ -1140,7 +1096,8 @@ footer {
 }
 
 .frame-box-headerbox {
-  background: #2d2a23 url("http://www.rusages.ru/static/images/texture-dark.jpg") repeat top;
+  background: #2d2a23
+    url("https://vladthejunior.sirv.com/rusages/images/texture-dark.jpg") repeat top;
   color: #fefefe;
   border: 1px solid rgba(192, 136, 64, 0.7);
   overflow: hidden;
@@ -1165,7 +1122,8 @@ footer {
   overflow: hidden;
   padding: 0rem;
   position: relative;
-  background: #f8f5e8 url("http://www.rusages.ru/static/images/texture-light.jpg") repeat top;
+  background: #f8f5e8
+    url("https://vladthejunior.sirv.com/rusages/images/texture-light.jpg") repeat top;
 }
 
 .frame-box-bodybox ul li {
@@ -1483,7 +1441,7 @@ ul.social-network li {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.3)
     ),
-    url("http://www.rusages.ru/static/images/header.jpg");
+    url("https://vladthejunior.sirv.com/rusages/images/header.jpg");
   background-position: center top;
   background-size: cover;
 }
@@ -1540,7 +1498,8 @@ ul.social-network li {
   column-count: 1;
 }
 
-.comment-body, .article-editor {
+.comment-body,
+.article-editor {
   font-family: "PT Serif", serif;
   line-height: 1.6;
 }
@@ -1858,7 +1817,6 @@ ul.social-network li {
     margin-bottom: -1.82%;
   }
 }
-
 
 .ck-content .mention,
 .mention {

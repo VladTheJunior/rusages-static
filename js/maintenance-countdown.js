@@ -54,5 +54,5 @@ function initializeClock(id, endtime) {
     var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(document.querySelector('.countdown-deadline').dataset.deadline);
+var deadline = new Date(document.getElementById('countdown-deadline').dataset.deadline);
 initializeClock('maintenance-countdown', deadline);

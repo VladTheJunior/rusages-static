@@ -26,7 +26,8 @@
   color: var(--text-light);
 }
 
-.comment-body .media, .article-body .media {
+.comment-body .media,
+.article-body .media {
   display: block;
 }
 
@@ -1133,10 +1134,19 @@ footer {
   position: relative;
 }
 
+.table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .table td,
-.table th {
+.table th,
+.table thead th {
   padding: 0.75rem;
   vertical-align: top;
+  border-bottom: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 

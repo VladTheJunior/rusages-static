@@ -32,6 +32,7 @@
 
 .article-editor .ck-editor__editable_inline {
   min-height: 400px;
+  max-height: 400px;
 }
 
 .comment-box-content-editable.ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused {
@@ -93,7 +94,7 @@
   display: flex;
 }
 
-.input-with-icon textarea{
+.input-with-icon textarea {
   height: 183px;
   max-width: 31em;
 }
@@ -413,6 +414,14 @@ select:focus,
   margin: 5% 10%;
 }
 
+.article-body img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 50px;
+  height: auto;
+}
+
 .article-body a:not([class]) {
   color: #2b72ad;
   -webkit-transition: color 0.3s;
@@ -507,7 +516,7 @@ select:focus,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  line-height: 1.6;
+  line-height: 1.4;
   font-size: 20px;
 }
 
@@ -599,8 +608,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 body {
@@ -677,7 +686,7 @@ footer {
   overflow-y: auto;
   height: 162px;
   font-family: "PT Serif", serif;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .comment-box-buttons {
@@ -1521,7 +1530,7 @@ ul.social-network li {
 .comment-body,
 .article-editor {
   font-family: "PT Serif", serif;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 @media (max-width: 576px) {
   .divider-frank {

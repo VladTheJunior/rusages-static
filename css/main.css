@@ -420,6 +420,7 @@ select:focus,
   max-width: 100%;
   min-width: 50px;
   height: auto;
+  cursor: pointer;
 }
 
 .article-body a:not([class]) {

@@ -4,6 +4,7 @@
     background-size: 23px auto!important;
     background-position: center!important;
     width: 23px !important;
+    vertical-align: middle;
 }
 
 .emojie-button{

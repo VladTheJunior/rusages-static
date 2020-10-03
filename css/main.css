@@ -26,7 +26,7 @@
   color: var(--text-light);
 }
 
-.comment-body .media {
+.comment-body .media, .article-body .media {
   display: block;
 }
 

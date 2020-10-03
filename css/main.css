@@ -512,7 +512,6 @@ select:focus,
 .article-body {
   word-wrap: break-word;
   overflow-wrap: break-word;
-  text-align: justify;
   font-family: "PT Serif", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

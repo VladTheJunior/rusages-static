@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     // Clone the first element and append it to the end of the list
 
-    $('#btn-spin').on('click',function () {
+    $('#btn-spin').on('click', function () {
         var $ul = $('.slotwrapper ul');
         var $firstSlot = $ul.find('li').first();
 

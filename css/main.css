@@ -487,11 +487,6 @@ select:focus,
   background-size: 100% 0.06em;
 }
 
-.user-link {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
 .user-item,
 .mobile-collapse-item,
 .notifications-item,

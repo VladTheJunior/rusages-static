@@ -7,6 +7,5 @@ $(document).ready(function () {
     $('#screenZoom').on("click", function(e){
         $('#screenZoom').fadeOut();
     });
-    $(".article-body img[alt='']").click(zoomIn);
-    $(".article-body img[alt='Image']").click(zoomIn);
+    $(".article-body img").click(zoomIn);
 });

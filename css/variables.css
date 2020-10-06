@@ -5,6 +5,9 @@
   --text-muted: #6c757d;
   --theme-color: #b62f02;
 
+  --ck-color-mention-background:#9900301a;
+  --ck-color-mention-text:#990030;
+
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

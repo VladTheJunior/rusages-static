@@ -1493,7 +1493,7 @@ ul.social-network li {
 .m-menu > ul > li > .affix-dropdown {
   margin-top: 12px;
 }
-.dropdown-menu a,
+.dropdown-menu a:not(.mention),
 .dropdown-menu .list-group {
   color: rgba(255, 255, 255, 0.7);
 }

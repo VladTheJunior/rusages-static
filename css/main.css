@@ -1864,6 +1864,12 @@ ul.social-network li {
   transition: background-color 50ms ease-out, color 50ms ease-out;
 }
 
+.notifications-item .mention {
+  font-size: 18px;
+  text-transform: none;
+  font-family: "PT Serif", serif;
+}
+
 .ck-content .mention:active,
 .mention:active,
 .ck-content .mention:hover,

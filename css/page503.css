@@ -1,0 +1,27 @@
+.page503-container {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.page503-content {
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.page503-content img {
+  height: 41vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.page503-content h1 {
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.page503-content h3 {
+  text-align: center;
+  text-transform: uppercase;
+}

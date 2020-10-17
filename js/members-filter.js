@@ -9,7 +9,7 @@ $(document).ready(function () {
             
             var c1 = $(this).find('.td-user-name').first().text().toLowerCase().indexOf(memberValue) > -1;
             var roleText = $(this).find('.td-user-role').first().text();
-            var c2 = roleText=='Администраторы' || roleText=='Редакторы' || roleText=='Авторы';
+            var c2 = roleText=='Администратор' || roleText=='Редактор' || roleText=='Автор';
             if (!staffValue){
                 c2 = true;
             }

@@ -128,7 +128,7 @@ $(document).ready(function () {
                 const comment_body = editor.getData();
                 const url = $(".comment-form").attr("action");
                 var userids = [];
-                $('.mention').each(function () {
+                $('.comment-form .mention').each(function () {
                     userids.push($(this).data('user-id'));
                 });
                 var action = 0;

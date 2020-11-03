@@ -243,7 +243,7 @@ $(document).ready(function () {
                             $(`#comment${comment_id}`).remove();
                             if ($("#comments_section").children().length == 0) {
                                 $("#comments_section").prepend(
-                                    '<p id="emptyComments" style="margin: 0;padding: 15px;">В данной статье отсутсвуют коментарии...</p>'
+                                    '<p id="emptyComments" style="margin: 0;padding: 15px;">В данной статье отсутсвуют комментарии...</p>'
                                 );
                             }
                             editor.isReadOnly = false;

@@ -49,15 +49,15 @@
 
 
 #separator1 {
-  background-image: url("https://vladthejunior.sirv.com/rusages/images/separators/ss_d17b5a0fcfdd6005eeccc5d8aaef70bf9bb6a8c7.jpg");
+  background-image: url("https://vladthejunior.sirv.com/rusages/images/main/1.webp");
 }
 
 #separator2 {
-  background-image: url("https://vladthejunior.sirv.com/rusages/images/separators/ss_236749b29fe5d5a588a43ca1585a3e74dfd58ff5.jpg");
+  background-image: url("https://vladthejunior.sirv.com/rusages/images/main/2.webp");
 }
 
 #separator3 {
-  background-image: url("https://vladthejunior.sirv.com/rusages/images/separators/ss_b69ba8ba6d2e8094b2cf6e55cae6042bbeedbbf4.jpg");
+  background-image: url("https://vladthejunior.sirv.com/rusages/images/main/3.webp");
 }
 
 
@@ -76,16 +76,6 @@
 .background-separator {
   height: 50vh;
   margin: 3rem 0;
-}
-
-.main {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 1em;
-  font-weight: 400;
-  line-height: 1.5;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.7);
-
 }
 
 .text-light {

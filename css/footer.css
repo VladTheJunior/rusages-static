@@ -1,8 +1,9 @@
 .footer__copyright {
   font-family: var(--font-family-sans-serif);
-  text-transform: uppercase;
+font-size: 80%;
   text-align: center;
   padding: 1.5rem 0;
+  
 }
 
 .footer__hr {

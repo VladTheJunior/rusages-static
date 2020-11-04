@@ -1,0 +1,44 @@
+
+.after-parallax {
+    background: linear-gradient(180deg,#1d1101,#252019);
+}
+.half-background[data-v-442c03f8], .hero[data-v-442c03f8] {
+    background-color: #ffd398;
+}
+.background-separator[data-v-442c03f8], .half-background[data-v-442c03f8], .hero[data-v-442c03f8] {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section[data-v-442c03f8], .separator[data-v-442c03f8] {
+    background-color: #252019;
+}
+.__nuxt-error-page, .section {
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-body, .section {
+    padding: 3rem 1.5rem;
+}
+.hero {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.is-relative {
+    position: relative!important;
+}
+.has-text-centered {
+    text-align: center!important;
+}
+
+
+body {
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}

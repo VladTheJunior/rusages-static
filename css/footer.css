@@ -1,0 +1,18 @@
+.footer__copyright {
+  font-family: var(--font-family-sans-serif);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.footer__hr {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 15%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__site-description {
+  margin: 1.5rem 0;
+  text-align: center;
+}

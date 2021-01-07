@@ -17,7 +17,7 @@ body {
 }
 
 body {
-  background: url("https://vladthejunior.sirv.com/rusages/images/wheel/bg.png");
+  background: url("https://rusages-image-cdn.sirv.com/rusages/images/wheel/bg.png");
   background-size: cover;
   background-attachment: fixed;
   background-color: #000;
@@ -72,7 +72,7 @@ body {
 
 .frame-box {
   background: #734716
-    url("https://vladthejunior.sirv.com/rusages/images/frame-box-texture.jpg")
+    url("https://rusages-image-cdn.sirv.com/rusages/images/frame-box-texture.jpg")
     repeat top;
   border: 2px solid rgba(0, 0, 0, 0.85);
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
@@ -85,7 +85,7 @@ body {
 
 .frame-box-headerbox {
   background: #2d2a23
-    url("https://vladthejunior.sirv.com/rusages/images/texture-dark.jpg") repeat
+    url("https://rusages-image-cdn.sirv.com/rusages/images/texture-dark.jpg") repeat
     top;
   color: #fefefe;
   border: 1px solid rgba(192, 136, 64, 0.7);
@@ -106,7 +106,7 @@ body {
   padding: 0rem;
   position: relative;
   background: #f8f5e8
-    url("https://vladthejunior.sirv.com/rusages/images/texture-light.jpg")
+    url("https://rusages-image-cdn.sirv.com/rusages/images/texture-light.jpg")
     repeat top;
 }
 
@@ -162,7 +162,7 @@ body {
   width: 100%;
   overflow: hidden;
   background: transparent
-    url("https://vladthejunior.sirv.com/rusages/images/button-red-desk.png") 0 0
+    url("https://rusages-image-cdn.sirv.com/rusages/images/button-red-desk.png") 0 0
     no-repeat;
   background-size: auto 400%;
   z-index: -1;

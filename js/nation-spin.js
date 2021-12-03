@@ -20,7 +20,7 @@ $(document).ready(function () {
                 if (count == 0) {
                     var slot = Math.floor(Math.random() * slotCount),
                         top = -slot * slotHeight,
-                        time = animationTime * slot / 19;
+                        time = animationTime * slot / slotCount;
                     $ul.css({
                         top: 0
                     }).animate({

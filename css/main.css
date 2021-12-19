@@ -950,7 +950,8 @@ footer {
 }
 
 .article-preview-body-content {
-  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
   -webkit-box-flex: 3;
   -ms-flex: 3;
   flex: 3;

@@ -1529,11 +1529,11 @@ ul.social-network li {
   height: 100vh;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1)
     ),
-    url("https://rusages-image.sirv.com/rusages/images/header.jpg");
-  background-position: center top;
+    url("https://rusages-image.sirv.com/rusages/images/header2.webp");
+  background-position: center left;
   background-size: cover;
 }
 

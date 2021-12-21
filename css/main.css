@@ -1146,12 +1146,12 @@ footer {
 }
 
 .edit-badge {
-  background-color: #ffc107 !important;
+  background-color: #343a40 !important;
 }
 .edit-badge:hover,
 .edit-badge:active,
 .edit-badge:focus {
-  background-color: #e0a800 !important;
+  background-color: #121416 !important;
 }
 
 .delete-badge {

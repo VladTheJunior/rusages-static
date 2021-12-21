@@ -404,7 +404,7 @@ select:focus,
 .t-articles tr > td:first-child {
   counter-increment: rowNumber;
 }
-#id_pic-menu {
+#id_avatar-menu {
   max-height: 203px;
   overflow-y: auto;
 }
@@ -1143,6 +1143,24 @@ footer {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   line-height: 1;
+}
+
+.edit-badge {
+  background-color: #ffc107 !important;
+}
+.edit-badge:hover,
+.edit-badge:active,
+.edit-badge:focus {
+  background-color: #e0a800 !important;
+}
+
+.delete-badge {
+  background-color: #dc3545 !important;
+}
+.delete-badge:hover,
+.delete-badge:active,
+.delete-badge:focus {
+  background-color: #bd2130 !important;
 }
 
 .approved-badge-checked {

@@ -1,0 +1,165 @@
+.stats_search_box{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.stats_bad{
+    margin-left: 5px;
+    color: #ff0000;
+    text-shadow: 0px 0px 2px black;
+    font-weight: 700;
+}
+.stats_good{
+    margin-left: 5px;
+    font-weight: 700;
+    color: #28a745;
+    text-shadow: 0px 0px 2px black;
+}
+.stats_error{
+    color: #fff;
+    background-color: rgb(189 33 48 / 10%);
+    border-color: #bd2130;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+}
+.stats_winrate_bar{
+    height: 27px;
+    position: relative;
+    padding: 3px;
+    background-color: rgb(255 255 255 / 10%);
+}
+.stats_winrate{
+    width: 54%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    background: -webkit-gradient(linear,left top,right top,from(#8f0000),to(#d17915));
+    background: -webkit-linear-gradient(left,#8f0000,#d17915);
+    background: -o-linear-gradient(left,#8f0000,#d17915);
+    background: linear-gradient(90deg,#8f0000,#d17915);
+}
+
+.stats_title {
+    color: #ffdf91;
+    text-align: center;
+    font-size: 1.7067rem;
+    font-weight: 700;
+    padding: 0.375rem 12% 0.375rem calc(12% + 0.8em);
+    width: 100%;
+    position: relative;
+}
+
+.stats_title::after{
+    border-width: 2px 0;
+    border-image-slice: 2;
+    border-image-source: linear-gradient(
+    90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-style: solid;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(
+    90deg,rgba(189,33,48,0),rgba(189,33,48,.75) 20%,#58141b 40% 60%,rgba(189,33,48,.75) 80%,rgba(189,33,48,0));
+    z-index: -1;
+}
+.stats_value {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.stats_text {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.stats_item {
+    box-sizing: border-box;
+    text-align: center;
+    color: #f9f5e1;
+    font-weight: 700;
+    position: relative;
+    padding: 32px 7px 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.stats_item:not(.stats_item__big) {
+    width: 50%;
+    margin-top: 33px;
+}
+
+.stats_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+
+@media (min-width: 860px){
+    .stats_item:not(.stats_item__big) {
+        height: 115px;
+    }
+}
+.stats_item__big {
+    width: 100%;
+    padding-top: 127px;
+}
+
+.stats_inner {
+    max-width: 1328px;
+    margin: 0 16px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 65px;
+}
+@media (min-width: 720px){
+    .stats_item:not(.stats_item__big) {
+        height: 131px;
+        margin-top: 0;
+    }
+    .stats_box {
+        -ms-flex-preferred-size: 38%;
+        flex-basis: 38%;
+        -ms-flex-line-pack: justify;
+        align-content: space-between;
+    }
+    .stats_box__right {
+        -ms-flex-order: 3;
+        order: 3;
+    }
+    .stats_box__left {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .stats_item__big {
+        -ms-flex-order: 2;
+        order: 2;
+        width: 24%;
+    }
+    .stats_inner {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+}
+.stats_ico__big {
+    height: 248px;
+    background: url("https://rusages-image.sirv.com/rusages/images/banner.webp") center top no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -75px;
+}

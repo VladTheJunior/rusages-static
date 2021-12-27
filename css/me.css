@@ -1,0 +1,126 @@
+
+.portfolio{
+    background: rgb(19 24 33 / 80%) !important;
+    color: #fefefe;
+    margin-top: -2em;
+    margin-bottom: -2em;
+    padding: 2em 0;
+    display: flex!important;
+    flex-wrap: wrap;
+}
+
+.profile{
+    position: sticky;
+    top: 95px;
+    margin: 2em 0.5em;
+}
+
+.profile-image{
+    margin-bottom: 2em;
+}
+
+.profile-name{
+    color: #d8c072;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.separator{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.profile-description{
+    text-align: left;
+}
+
+.profile-details{
+    margin-top: 1em;
+}
+
+.profile-details p{
+    margin: 0;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.project-badge{
+    background-color: #28a745!important;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 0.7rem;
+    display: inline-flex;
+    padding: 0.8em;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.project {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 300px;
+    height: 543px;
+    background-position: center;   
+    background-size: cover;
+    outline: 0px solid rgba(192,136,64,.7);
+    transition: border-width 0.6s linear;
+}
+
+.project:hover{
+    outline-width: 1px;
+    cursor: pointer;
+}
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    position: relative;
+}
+
+.project-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.project-description {
+    padding: 0.5em; 
+    margin-top: auto; 
+    border-top-width: 2px;
+    border-image-slice: 2;
+    border-image-source: linear-gradient(
+    90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-top-style: solid;
+
+    font-family: var(--font-family-sans-serif);
+    background: rgb(19 24 33 / 80%) !important;
+}
+
+.project-header{
+    border-bottom-width: 2px;
+    border-image-slice: 2;
+    border-image-source: linear-gradient(
+    90deg,rgba(184,134,45,0),#b8862d,#ffdf91,#b8862d,rgba(184,134,45,0));
+    border-bottom-style: solid;
+
+    width: 100%;
+    background: rgb(19 24 33 / 80%) !important;
+    display: flex;
+}
+
+.project-title{
+    color: #d8c072;
+    padding-left: 0.5em;
+    margin-top: auto; 
+    margin-bottom: auto;
+}

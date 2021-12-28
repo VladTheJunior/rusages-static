@@ -44,8 +44,6 @@
 .stats_title {
     color: #ffdf91;
     text-align: center;
-    font-size: 1.7067rem;
-    font-weight: 700;
     padding: 0.375rem 12% 0.375rem calc(12% + 0.8em);
     width: 100%;
     position: relative;

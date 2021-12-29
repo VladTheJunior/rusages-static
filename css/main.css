@@ -5,7 +5,7 @@
 }
 
 
-.ul{
+ul, ol{
   padding-left: 3vw;
 }
 
@@ -1645,16 +1645,16 @@ ul.social-network li {
   }
 
   .article-body h6 {
-    font-size: 12px;
-  }
-  .article-body h5 {
     font-size: 14px;
   }
-  .article-body h4 {
+  .article-body h5 {
     font-size: 16px;
   }
-  .article-body h3 {
+  .article-body h4 {
     font-size: 18px;
+  }
+  .article-body h3 {
+    font-size: 20px;
   }
   .article-body h2 {
     font-size: 22px;
@@ -1674,7 +1674,7 @@ ul.social-network li {
 
   .article-body,
   .comment-body {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -1735,7 +1735,7 @@ ul.social-network li {
 
   .article-body,
   .comment-body {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 

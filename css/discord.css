@@ -47,6 +47,16 @@
   border-radius: 50%;
 }
 
+.discord-invite-header-overall-status {
+  background-color: #dddddd;
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 15px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
 .discord-invite-body-content {
   display: -webkit-box;
   display: -ms-flexbox;

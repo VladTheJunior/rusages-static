@@ -5,6 +5,10 @@
 }
 
 
+.ul{
+  padding-left: 3vw;
+}
+
 .separator {
   display: flex;
   justify-content: center;
@@ -1650,13 +1654,13 @@ ul.social-network li {
     font-size: 16px;
   }
   .article-body h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .article-body h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .article-body h1 {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .mobile-menu {
@@ -1670,7 +1674,7 @@ ul.social-network li {
 
   .article-body,
   .comment-body {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -1700,7 +1704,7 @@ ul.social-network li {
     font-size: 26px;
   }
   h1 {
-    font-size: 32px;
+    font-size: 30px;
   }
   .article-body h6 {
     font-size: 14px;
@@ -1718,7 +1722,7 @@ ul.social-network li {
     font-size: 24px;
   }
   .article-body h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
   .mobile-menu {
     display: flex !important;
@@ -1731,7 +1735,7 @@ ul.social-network li {
 
   .article-body,
   .comment-body {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 

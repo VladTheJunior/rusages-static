@@ -80,7 +80,7 @@
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-image: url("https://rusages-image.sirv.com/rusages/images/discord/rusages.png");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/discord/rusages.png");
 }
 
 .discord-invite-body-content-info {
@@ -142,7 +142,7 @@
 }
 
 .discord-invite-logo {
-  background: url("https://rusages-image.sirv.com/rusages/images/discord/discordlogo.svg")
+  background: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/discord/discordlogo.svg")
     50% no-repeat;
   width: 124px;
   height: 34px;
@@ -154,8 +154,8 @@
 
 .discord-invite-body {
   background-color: #202225;
-  background-image: url("https://rusages-image.sirv.com/rusages/images/discord/db9fd9dac08621e31b06609781c8851c.png"),
-    url("https://rusages-image.sirv.com/rusages/images/discord/1c7d080332a1c9778182bc19c2f407bc.png");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/discord/db9fd9dac08621e31b06609781c8851c.png"),
+    url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/discord/1c7d080332a1c9778182bc19c2f407bc.png");
   background-size: 200px 180px, 110px 130px;
   background-position: 0 100%, 100% 100%;
   background-repeat: no-repeat, no-repeat;

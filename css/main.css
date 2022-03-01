@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 ul, ol{
   padding-left: 3vw;
 }
@@ -18,13 +17,11 @@ ul, ol{
   width: 100%;
 }
 
-
 .section h3 {
   color: #d8c072;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-
 }
 
 .section h4 {
@@ -50,25 +47,17 @@ ul, ol{
   padding: 3rem 1.5rem 0 1.5rem;
 }
 
-
-
 #separator1 {
-  background-image: url("https://rusages-image.sirv.com/rusages/images/main/1.webp");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/main/1.webp");
 }
 
 #separator2 {
-  background-image: url("https://rusages-image.sirv.com/rusages/images/main/2.webp");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/main/2.webp");
 }
 
 #separator3 {
-  background-image: url("https://rusages-image.sirv.com/rusages/images/main/3.webp");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/main/3.webp");
 }
-
-
-
-
-
-
 
 .background-separator {
   background-position: 50%;
@@ -136,19 +125,19 @@ ul, ol{
 }
 
 .input-icon {
-  min-width: 50px;
-  height: 2.5625rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  border: 2px solid #614b27;
-  border-radius: 0;
-  background-color: #231c16;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  font-family: "PT Serif", serif;
-  color: #f1e9d0;
-  border-right: 0;
+min-width: 50px;
+height: 2.5625rem;
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+border: 2px solid #614b27;
+border-radius: 0;
+background-color: #231c16;
+box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+font-family: "PT Serif", serif;
+color: #f1e9d0;
+border-right: 0;
 }
 
 .input-with-icon {
@@ -183,22 +172,22 @@ input[type="checkbox"] {
 
 .aoe-checkbox label:before {
   background-size: contain;
-  background-image: url("https://rusages-image.sirv.com/rusages/images/checkbox/checkbox_off.png");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/checkbox/checkbox_off.png");
   background-position: left center;
   background-repeat: no-repeat;
   margin-top: -5px;
 }
 
 .aoe-checkbox label:hover:before {
-  background-image: url("https://rusages-image.sirv.com/rusages/images/checkbox/checkbox_hover.png");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/checkbox/checkbox_hover.png");
 }
 
 input[type="checkbox"]:checked + label:before {
-  background-image: url("https://rusages-image.sirv.com/rusages/images/checkbox/checkbox_on.png");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/checkbox/checkbox_on.png");
 }
 
 input[type="checkbox"]:checked + label:hover:before {
-  background-image: url("https://rusages-image.sirv.com/rusages/images/checkbox/checkbox_on_hover.png");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/checkbox/checkbox_on_hover.png");
 }
 
 input[type="email"],
@@ -521,7 +510,7 @@ select:focus,
   right: 0;
   top: 0;
   height: 100%;
-  background-image: url("https://rusages-image.sirv.com/rusages/images/divider.png");
+  background-image: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/divider.png");
   background-size: auto 200%;
 }
 
@@ -591,7 +580,7 @@ select:focus,
 .article-body ul li,
 .article-li {
   list-style: none;
-  background: url("https://rusages-image.sirv.com/rusages/images/article/marker.png")
+  background: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/article/marker.png")
     left 0 top 0.6em no-repeat;
   background-size: 0.4em 0.4em;
   padding-left: 1.2em;
@@ -670,7 +659,7 @@ body {
 
 body {
   overflow: auto;
-  background: url("https://rusages-image.sirv.com/rusages/images/menubg.png");
+  background: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/menubg.png");
 }
 footer {
   background-color: rgba(0, 0, 0, 0.7);
@@ -697,7 +686,7 @@ footer {
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
   margin-bottom: 1.5rem;
   padding: 0.5rem;
-  background: url("https://rusages-image.sirv.com/rusages/images/framebox-bigbg.jpg")
+  background: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/framebox-bigbg.jpg")
     rgb(255, 255, 255);
 }
 
@@ -806,7 +795,7 @@ footer {
   width: 100%;
   overflow: hidden;
   background: transparent
-    url("https://rusages-image.sirv.com/rusages/images/button-red-desk.png") 0 0
+    url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/button-red-desk.png") 0 0
     no-repeat;
   background-size: auto 400%;
   z-index: -1;
@@ -902,7 +891,7 @@ footer {
   margin-bottom: 2rem;
   padding: 8px;
   background: #734716
-    url("https://rusages-image.sirv.com/rusages/images/frame-box-texture.jpg")
+    url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/frame-box-texture.jpg")
     repeat top;
   border: 2px solid rgba(0, 0, 0, 0.85);
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
@@ -913,7 +902,7 @@ footer {
 
 .article-preview-bodybox {
   background: #f8f5e8
-    url("https://rusages-image.sirv.com/rusages/images/texture-light.jpg")
+    url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/texture-light.jpg")
     repeat top;
   padding: 0;
   border: 1px solid rgba(192, 136, 64, 0.7);
@@ -1187,7 +1176,7 @@ footer {
 
 .frame-box {
   background: #734716
-    url("https://rusages-image.sirv.com/rusages/images/frame-box-texture.jpg")
+    url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/frame-box-texture.jpg")
     repeat top;
   border: 2px solid rgba(0, 0, 0, 0.85);
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 1);
@@ -1199,7 +1188,7 @@ footer {
 
 .frame-box-headerbox {
   background: #2d2a23
-    url("https://rusages-image.sirv.com/rusages/images/texture-dark.jpg") repeat
+    url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/texture-dark.jpg") repeat
     top;
   color: #fefefe;
   border: 1px solid rgba(192, 136, 64, 0.7);
@@ -1235,7 +1224,7 @@ footer {
   padding: 0rem;
   position: relative;
   background: #f8f5e8
-    url("https://rusages-image.sirv.com/rusages/images/texture-light.jpg")
+    url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/texture-light.jpg")
     repeat top;
 }
 
@@ -1554,7 +1543,7 @@ ul.social-network li {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.1)
     ),
-    url("https://rusages-image.sirv.com/rusages/images/header2.webp");
+    url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/header2.webp");
   background-position: center left;
   background-size: cover;
 }

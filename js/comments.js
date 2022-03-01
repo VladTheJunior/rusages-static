@@ -160,7 +160,7 @@ $(document).ready(function () {
                             var comment_html = `							<div class="media mb-4" id="comment${response.comment.comment_id}">
 <div class="avatar-container mr-3">
   <img width="64px" height="64px"
-    src="https://rusages-image.sirv.com/rusages/images/avatars/${response.comment.avatar}">
+    src="https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/avatars/${response.comment.avatar}">
   <div title="Пользователь в сети" class="online-badge"></div>
 
 </div>

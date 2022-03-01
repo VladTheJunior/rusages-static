@@ -155,7 +155,7 @@
 }
 .stats_ico__big {
     height: 248px;
-    background: url("https://rusages-image.sirv.com/rusages/images/banner.webp") center top no-repeat;
+    background: url("https://raw.githubusercontent.com/VladTheJunior/rusages-cdn/main/rusages/images/banner.webp") center top no-repeat;
     position: absolute;
     left: 0;
     right: 0;
